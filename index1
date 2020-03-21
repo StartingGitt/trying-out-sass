@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="eng">
+<head>
+      <meta charset="UTF-8">
+      <meta name="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <meta name="description" content="Sass_crash_course">
+      <meta name="author" content="mememe">
+      <meta name="keywords" content="Sass,variables,functions,boolens,mixins, etc.">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <link rel="stylesheet" href="CSS/global.css">
+                <title>Basic Sass course</title>
+      <style type="text/css">
+
+      *,
+      *::before,
+      *::after{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html{
+        font-family: "Montserrat",Helvetica,Arial,Sans-serif;
+      }
+
+
+
+
+      </style>
+</head>
+<body>
+  <header class="showcase">
+			<div class="container">
+				<nav>
+					<h1 class="logo">My Website</h1>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Services</a></li>
+					</ul>
+				</nav>
+
+				<div class="showcase-content">
+					<div>
+						<h1>Make Your Marketing Real</h1>
+						<p class="my-1">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+							eligendi tempore atque laborum. Quisquam nemo at non. Corrupti,
+							vitae dolore.
+						</p>
+						<a href="#" class="btn-primary">Learn More</a>
+						<a href="#" class="btn-secondary">Sign Up</a>
+					</div>
+					<img
+						src="https://themesbrand.com/zooki/layouts/images/home-2-img.png"
+					/>
+				</div>
+			</div>
+		</header>
+</body>
+</html>
